@@ -1,0 +1,22 @@
+{
+  "name": "math-learning-website",
+  "version": "1.0.0",
+  "description": "Interactive math learning website with account system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
