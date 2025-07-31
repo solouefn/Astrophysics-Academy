@@ -13,5 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"
+  },
+  "engines": {
+    "node": "18.18.2"
   }
 }
